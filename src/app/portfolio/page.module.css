@@ -1,0 +1,58 @@
+.container {
+
+}
+
+.mainTitle {
+    font-size: 80px;
+    padding-left: 330px;
+    background: linear-gradient(to right, #283c86, #45a247);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+  
+  .selectTitle {
+    margin: 20px 0px;
+    padding-left: 410px;
+    background: linear-gradient(to bottom, #194c33, #9e0a0a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .items {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+  }
+  
+  .item {
+    border: 5px solid #bbb;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-size: cover !important;
+  }
+  
+  .item:nth-child(1) {
+    background: url("/illustration.svg");
+  }
+  .item:nth-child(2) {
+    background: url("/website.svg");
+  }
+  .item:nth-child(3) {
+    background: url("/apps.svg");
+  }
+  
+  .title {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .item:hover .title {
+    color: #53c28b;
+  }

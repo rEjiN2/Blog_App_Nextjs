@@ -1,0 +1,37 @@
+.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+    height:140px; 
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logout{
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 12px;
+    border: none;
+    background-color: #ff4b1f;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.navLinks {
+    display: none; /* Hide by default */
+    /* Your styles for the navigation links */
+  }
+
+  .navLinks.open {
+    display: block; /* Show when menu is open */
+    /* Additional styles to create dropdown effect */
+  }
